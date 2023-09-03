@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK4</title>
+</head>
+<body>
+    <form onsubmit="myFunction()">
+      <label for="Fname">Full Name:</label> 
+      <input type="text" id="Fname" name="Fname"><br><br>
+      <label for="Uname">Username:</label> 
+      <input type="text" id="Uname" name="Uname"><br><br>
+      <label for="Pass">Password:</label> 
+      <input type="password" id="Pass" name="Pass"><br><br>
+      <label for="RePass">Re Password :</label> 
+      <input type="password" id="RePass" name="RePass"><br><br>
+      <label for="Add">Address:</label> 
+      <input type="text" id="Add" name="Add"><br><br>
+      <label for="age">Age:</label> 
+      <input type="number" id="age" name="age"><br><br>
+      <label for="gen">Gender:</label>
+      <select>
+            <value>Select Gender</value>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+      </select><br><br>
+      <input name="form" type="submit" value="save" />
+      <script>
+        function myFunction() {
+          alert("The form was saved");
+        }
+        </script>
+    </form>
+</body>
+</html>
